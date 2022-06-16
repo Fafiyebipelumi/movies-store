@@ -12,7 +12,7 @@ const Navbar = () => {
     return (
         <nav className='navbar'>
             <div className='navbar__container'>
-                <Link to='/' className='navbar__logo'>EPICBLOG.</Link>
+                <Link to='/' className='navbar__logo'>EPICBLOG .</Link>
                 <div className='menu-icon' onClick={changeIcon}>
                     {click ? <FaTimes /> : <FaBars />}
                 </div>

@@ -4,7 +4,7 @@
     justify-content: center;
 }
 
-span {
+.side-border {
     height: 35px;
     width: 10px;
     background-color: rgb(255, 59, 59);
